@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<title>Frontend Mentor | Link-sharing app</title>
+	</head>
+	<body>
+		<div class="login-main-section">
+			<div class="logo">
+				<img src="./assets/images/logo-devlinks-large.svg" alt="devlinks" />
+			</div>
+			<div class="login-section">
+				<h2 class="login-title">Login</h2>
+				<p class="login-text">
+					Add your details below to get back into the app
+				</p>
+				<form action="#">
+					<div class="input-box">
+						<label for="login-email"> Email address</label>
+						<div class="input-design" id="login-design-mail">
+							<div class="input-icon">
+								<img src="./assets/images/icon-email.svg" alt="" />
+							</div>
+
+							<input
+								type="email"
+								id="login-email"
+								class="input"
+								placeholder="e.g alex@email.com"
+							/>
+							<p class="input-error mail-error">Can’t be empty</p>
+						</div>
+					</div>
+					<div class="input-box">
+						<label for="-login-password">Password</label>
+						<div class="input-design" id="login-design-pass">
+							<div class="input-icon">
+								<img src="./assets/images/icon-password.svg" alt="" />
+							</div>
+							<input
+								type="password"
+								id="login-password"
+								class="input"
+								placeholder="Enter Your password"
+							/>
+							<p class="input-error password-error">Please check again</p>
+						</div>
+					</div>
+					<div class="login-btn" id="login">
+						<a href="./desktop-empty.html">Login</a>
+					</div>
+				</form>
+				<p class="login-text quest">
+					Don’t have an account? <a href="acc.html">Create account </a>
+				</p>
+			</div>
+		</div>
+		<script src="./assets/js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&display=swap");
+
+* {
+	font-family: "Instrument Sans", sans-serif;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #fafafa;
+	position: relative;
+}
+.background {
+	background-color: #633cff;
+	height: 35.7rem;
+	width: 100%;
+	border-radius: 0 0 32px 32px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+header {
+	margin: 2.4rem;
+	padding: 1.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	border-radius: 1.2rem;
+}
+.header-btn {
+	padding: 1.1rem 2.7rem;
+	border: 1px solid #633cff;
+	border-radius: 0.8rem;
+	color: #633cff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+	cursor: pointer;
+}
+.purple {
+	background-color: #633cff;
+	color: white;
+}
+.main-div {
+	background-color: white;
+	padding: 4.8rem 5.6rem;
+	width: 34.9rem;
+	margin: 8.2rem auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
+	box-shadow: 0 0 32px 0;
+}
+.profile-pic {
+	width: 10.4rem;
+	height: 10.4rem;
+	border: 4px solid #633cff;
+	border-radius: 50%;
+}
+.profile-img {
+	border-radius: 50%;
+}
+.name {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin: 2.5rem 0 0.8rem;
+	color: #333333;
+}
+.mail {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #737373;
+}
+.links {
+	margin-top: 5.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2rem;
+}
+.shortcut {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.4rem 1.6rem;
+	width: 237px;
+	height: 5.6rem;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	border-radius: 0.8rem;
+	color: white;
+	gap: 0.8rem;
+}
+.shortcut-logo {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	height: 16px;
+	/* width: 16px; */
+}
+
+@media (max-width: 400px) {
+	header {
+		background-color: transparent;
+		justify-content: center;
+		gap: 1.6rem;
+	}
+	.header-btn {
+		white-space: nowrap;
+	}
+	.background {
+		display: none;
+	}
+	.main-div {
+		width: 100%;
+		box-shadow: none;
+		background-color: transparent;
+		margin-top: 12px;
+	}
+}

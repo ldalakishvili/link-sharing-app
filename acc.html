@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Create Account</title>
+	</head>
+	<body>
+		<div class="login-main-section">
+			<div class="logo">
+				<img src="./assets/images/logo-devlinks-large.svg" alt="devlinks" />
+			</div>
+			<div class="login-section">
+				<h2 class="login-title">Create account</h2>
+				<p class="login-text">Let’s get you started sharing your links!</p>
+				<form action="#">
+					<div class="input-box">
+						<label for="login-email"> Email address</label>
+						<div class="input-design" id="create-acc-mail">
+							<div class="input-icon">
+								<img src="./assets/images/icon-email.svg" alt="" />
+							</div>
+							<input
+								type="email"
+								id="create-email"
+								class="input"
+								placeholder="e.g alex@email.com"
+							/>
+							<p class="input-error mail-error">Can’t be empty</p>
+						</div>
+					</div>
+					<div class="input-box">
+						<label for="-login-password"> Create password</label>
+						<div class="input-design" id="create-acc-pass">
+							<div class="input-icon">
+								<img src="./assets/images/icon-password.svg" alt="" />
+							</div>
+							<input
+								type="password"
+								id="create-password1"
+								class="input"
+								placeholder="At least 8 characters"
+							/>
+							<p class="input-error password-error">Please check again</p>
+						</div>
+					</div>
+					<div class="input-box">
+						<label for="-login-password"> Confirm password</label>
+						<div class="input-design">
+							<div class="input-icon">
+								<img src="./assets/images/icon-password.svg" alt="" />
+							</div>
+							<input
+								type="password"
+								id="create-password2"
+								class="input"
+								placeholder="At least 8 characters"
+							/>
+						</div>
+					</div>
+					<p class="login-text pass">
+						Password must contain at least 8 characters
+					</p>
+					<div class="login-btn" id="create">
+						<a href="./index.html">Create new account</a>
+					</div>
+				</form>
+				<p class="login-text quest">
+					Already have an account? <a href="index.html">Login</a>
+				</p>
+			</div>
+		</div>
+		<script src="assets/js/acc.js"></script>
+	</body>
+</html>
